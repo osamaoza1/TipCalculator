@@ -6,24 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tip Calculator</title>
     <link rel="stylesheet" href="/css/styles.css">
-    <script src="/js/script.js"></script>
+    <script src="/js/script.js" defer></script>
     
 </head>
 <body>
     <div class="container">
         <h1>Enter Bill</h1>
-        <input id="bill" value="Enter Amount">
+        <input id="bill" value="100">
         <div>
-            <button>10%</button>
-            <button>15%</button>
-            <button>20%</button>
+            <button id="percent">10%</button>
+            <button id="percent">15%</button>
+            <button id="percent">20%</button>
         </div>
         
-        <input value="Custom%">
-        <button>Calculate</button>
-        <p id="tip">Hello</p>
-
-        <p id="p1">Hello World!</p>
+        <input id="customInput" value="Custom%">
+        <button id="customButton">Calculate</button>
+        <p id="output">Output</p>
     </div>
 
     
