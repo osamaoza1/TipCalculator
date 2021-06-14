@@ -1,0 +1,14 @@
+body{
+    display: block;
+}
+
+button{
+    margin: 20px;
+}
+
+.container{
+    margin: auto;
+    width: 50%;
+    background-color: blue;
+    text-align: center;
+}
